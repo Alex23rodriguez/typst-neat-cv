@@ -309,6 +309,8 @@
               url_prefix + display
             }
           }
+        } else if key == "linkedin" {
+          display = "LinkedIn"
         }
 
         __social-link(icon, url, display)
