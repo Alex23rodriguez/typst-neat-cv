@@ -234,7 +234,9 @@
           ]
         ]))
 
-        #text(size: 0.9em, description)
+        #if description != "" [
+          #text(size: 0.9em, description)
+        ]
       ],
     )
   ]
