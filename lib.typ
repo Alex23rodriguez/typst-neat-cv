@@ -85,7 +85,7 @@
   display,
   /// Icon size
   /// -> length
-  size: 1.5em,
+  size: 2em,
 ) = (
   context {
     let theme = __st-theme.final()
